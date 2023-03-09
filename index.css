@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vw;
+}
+
+header{
+    background-color: aqua;
+   
+}
+
+
+footer {
+    padding: 1rem;
+    background-color: aqua;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-top: 1px solid rgba(255,255 255 , 2,);
+    border-bottom: 1px solid rgba(255,255 255 , 2,);
+    position: sticky ;
+    top: 0px ;
+}
+nav ul {
+    display: flex;
+    margin: 0px;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 0 20px ;
+    text-decoration: none;
+    text-transform: uppercase ;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+nav ul li a:hover {
+    background-color: burlywood;
+}
+
+
+nav ul li a.active {
+    background-color:burlywood;
+
+}
