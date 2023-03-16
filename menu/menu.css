@@ -10,7 +10,7 @@ body {
 }
 
 header{
-    background-color: aqua;
+    background-color: rgb(118, 75, 51);
    
 }
 
@@ -56,4 +56,29 @@ nav ul li a:hover {
 nav ul li a.active {
     background-color:burlywood;
 
+}
+
+
+.voordelen{
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+.maandag{
+    padding: 10px;
+    border: 4px double darkgray;
+    border-radius: 20px;
+    border-spacing: px;
+}
+.maandag a{
+    padding-left: 9px;
+    position: relative;
+    
+}
+.vrijdag{
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    border: 4px double darkgray;
+    border-radius: 20px;
 }
