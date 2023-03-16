@@ -9,15 +9,13 @@ body {
     min-height: 100vw;
 }
 
-header{
-    background-color: aqua;
-   
+header {
+    background-color: #8d7249;
 }
-
 
 footer {
     padding: 1rem;
-    background-color: aqua;
+    background-color: #8d7249;
 }
 
 nav {
