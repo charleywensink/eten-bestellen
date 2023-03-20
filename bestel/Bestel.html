@@ -23,10 +23,18 @@
             </ul>
         </nav>
         <div id="div1">
-        <h1 id="item1">broodje pindakaas</h1>
-        <button type="button" onclick="bestel()">bestel</button>
+            <h1>Maaltijden</h1>
+            <ul>
+                <li>maaltijd1 - €10 <button onclick="addItem('maaltijd1', 10)">Add</button></li>
+                <li>maaltijd2 - €8 <button onclick="addItem('maaltijd2', 8)">Add</button></li>
+                <li>maaltijd3 - €5.50 <button onclick="addItem('maaltijd3', 5.50)">Add</button></li>
+            </ul>
+
+            <h1>Winkelwagen</h1>
+            <ul id="items">
+            </ul>
+            <button onclick="clearCart()">Clear</button>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad architecto dicta doloribus eius eveniet labore, libero minus quasi, quia sequi, tempora tempore. Eligendi illum mollitia nisi placeat totam voluptas!</p>
     </main>
 
     <footer>
