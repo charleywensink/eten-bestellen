@@ -1,61 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="menu.css">
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple House Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="menu.css" rel="stylesheet" />
 </head>
+<body> 
 
-<body>
-    <header>
-        <h1>Header</h1>
-    </header>
-
-    <main>
-        <nav>
-            <ul>
-                <li><a href="../index/index.html">Home</a></li>
-                <li><a href="../menu/menu.html" class="active">Menu</a></li>
-                <li><a href="../bestel/Bestel.html">Betallen</a></li>
-                <li><a href="../info/info.html">Informatie</a></li>
-            </ul>
-        </nav>
-
-        <div class="menu">
-            <div class="voordelen">
-                <div class="maandag">
-                    <a>maandag t/m donderdag</a><br>
-                    <a>3-gangen keuzenmenu</a><br>
-                    <a>voor €19,50</a>
-                </div>
-                <div class="vrijdag">
-                    <a>vrijdag t/m zondag</a><br>
-                    <a>3-gangen keuzenmenu</a><br>
-                    <a>voor €21,50</a>
-                </div>
-            </div>
-
-            <div class="voorgerechten"></div>
-
-            <div class="hooftgerechten"></div>
-
-            <div class="vlees"></div>
-
-            <div class="vega"></div>
-
-            <div class="kindermenu"></div>
-
-            <div class="desserts"></div>
-
-        </div>
-
-    </main>
-    <footer>
-        <p>footer</p>
-    </footer>
+	<div class="container">
+			<div class="row tm-gallery">
+				<div id="tm-gallery-page-pizza" class="tm-gallery-page">
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/zalm.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Zalmfilet</h4>
+								<p class="tm-gallery-description">met dille-roomsaus</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/Carpaccio.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">carpaccio</h4>
+								<p class="tm-gallery-description">pestodressing, Parmezaanse kaas, pijnboompitten en rucola</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/kipsate.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Kipsaté</h4>
+								<p class="tm-gallery-description">Met satésaus, kroepoek, rauwkost, aardappelsalade en krokante uitjes</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/varken.png" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Varkenshaas</h4>
+								<p class="tm-gallery-description">medaillons omwikkeld met spek geserveerd met champignonroomsaus</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/burger.png" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Veggie burger</h4>
+								<p class="tm-gallery-description">Met kaas, augurk, kimchi-mayonaise en maiskolfjes</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/pannenkoek.png" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Pancakes</h4>
+								<p class="tm-gallery-description">met peodersuiker, warme chocoladesaus en een kinderijsje</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/cheesecake.png" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Cheesecake</h4>
+								<p class="tm-gallery-description">met coulis van rood fruit</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+					
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="images/appel.png" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Appeltaartje</h4>
+								<p class="tm-gallery-description">warm geserveerd met kaneelijs en slagroom</p>
+								<p class="tm-gallery-price">-</p>
+							</figcaption>
+						</figure>
+					</article>
+				</div> 
 </body>
-
 </html>

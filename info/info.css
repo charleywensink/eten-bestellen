@@ -66,6 +66,9 @@ nav ul li a.active {
     z-index: 1;
     color: black;
     background-color: rgba(255,255,255,0.6);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 
 .image1{
@@ -109,4 +112,9 @@ footer {
 }
 ::-webkit-scrollbar{
     display: none;
+}
+.box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
