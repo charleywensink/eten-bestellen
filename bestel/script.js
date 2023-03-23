@@ -38,12 +38,13 @@ function displayCart() {
     if (totalPrice > 50) {
         priceAbove50 = totalPrice * 0.85;
         document.getElementById("korting").innerHTML = "Korting: 15%";
+
     } else {
         priceAbove50 = totalPrice;
     }
     // Laat de prijs en prijs met korting zien
     document.getElementById("totalPrice").innerHTML = `Totaal: €${totalPrice.toFixed(2)}`;
-    document.getElementById("korting").innerHTML = `Prijs met korting: €${priceAbove50.toFixed(2)}`;
+    document.getElementById("korting2").innerHTML = `Prijs met korting: €${priceAbove50.toFixed(2)}`;
 }
 
 function clearCart() {
