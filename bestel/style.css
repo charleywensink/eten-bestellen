@@ -9,29 +9,27 @@ body {
     min-height: 100vw;
 }
 
-header{
-    background-color: aqua;
-   
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
-
-footer {
-    padding: 1rem;
-    background-color: aqua;
-}
 
 nav {
     width: 100%;
     height: 50px;
     background-color: black;
-    border-top: 1px solid rgba(255,255 255 , 2,);
-    border-bottom: 1px solid rgba(255,255 255 , 2,);
+    border-top: 1px solid rgba(255,255, 255);
+    border-bottom: 1px solid rgba(255,255, 255);
     position: sticky ;
-    top: 0px ;
+    top: 0 ;
 }
+
 nav ul {
     display: flex;
-    margin: 0px;
+    margin: 0;
     padding: 0 100px;
     float: right;
 }
@@ -56,4 +54,85 @@ nav ul li a:hover {
 nav ul li a.active {
     background-color:burlywood;
 
+}
+
+/* Set default styles for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#div1 {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ullist {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.itemlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.itemlist button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.itemlist button:hover {
+    background-color: #555;
+}
+
+#items {
+    margin-bottom: 20px;
+}
+
+#totalPrice, #korting {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
