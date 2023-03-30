@@ -31,8 +31,7 @@ header {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -152,19 +151,13 @@ button:hover {
 
 .btn-primary:hover {
     text-shadow:
-            0 0 5px rgb(255, 255, 255, 1),
-            0 0 10px rgb(255, 255, 255, 1),
-            0 0 20px rgb(255, 255, 255, 1),
-            0 0 30px rgb(255, 255, 255, 1);
+            0 0 5px rgba(204, 204, 204, 0.35);
 }
+
+
 .itemcontainer {
     display: flex;
     align-items: center;
-}
-
-#sticky {
-    position: sticky;
-    top: 0;
 }
 
 #checkoutform{
