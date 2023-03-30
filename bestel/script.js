@@ -14,6 +14,23 @@ function addItem(name, price) {
     displayCart();
 }
 
+function removeItem(name, price) {
+    let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+
+    let existingItemIndex = cart.findIndex(cartItem => cartItem.name === name);
+    if (cart[existingItemIndex].quantity > 0 ) {
+        cart[existingItemIndex].quantity -= 1;
+    } else {
+        return
+    }
+
+    //Save items
+    localStorage.setItem("shoppingCart", JSON.stringify(cart));
+
+    displayCart();
+}
+
+
 function displayCart() {
     // Load items
     let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
