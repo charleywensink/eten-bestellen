@@ -34,9 +34,6 @@ footer {
     background-color: goldenrod;
 }
 
-nav {
-    background-color: goldenrod;
-}
 
 .aks {
     height: 480px;
@@ -45,4 +42,80 @@ nav {
     bottom: 437px;
     width: 51%;
     background-repeat: no-repeat;
+}
+nav {
+
+     background-color: rgba(0, 0, 0, 0.8);
+
+     position: fixed;
+
+     top: 0;
+
+     left: 0;
+
+     width: 100%;
+
+     z-index: 100;
+
+}
+
+
+
+
+nav ul {
+
+     display: flex;
+
+     margin: 0px;
+
+     padding: 0 100px;
+
+     float: right;
+
+}
+
+nav ul li {
+
+     list-style: none;
+
+}
+
+nav ul li a {
+
+     display: block;
+
+     color: white;
+
+     padding: 0 20px ;
+
+     text-decoration: none;
+
+     text-transform: uppercase ;
+
+     font-weight: bold;
+
+     line-height: 50px;
+
+}
+
+
+
+
+nav ul li a:hover {
+
+     background-color: burlywood;
+
+}
+
+
+
+
+
+nav ul li a.active {
+
+     background-color:burlywood;
+
+
+
+
 }
