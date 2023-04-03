@@ -72,7 +72,7 @@ function clearCart() {
 }
 
 function Checkout() {
-    window.location.href = "checkout.html";
+    window.location.href = "Checkout.html";
 }
 
 
